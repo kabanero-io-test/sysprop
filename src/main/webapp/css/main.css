@@ -245,8 +245,20 @@ button a {
     font-size:16px;
     transition: background-color .2s;
 }
+
 #guidesButton:hover {
     background-color: #C7EE63;
+}
+
+#cp4appsButton {
+    border:2px solid #5d6a8e;
+    border-radius:100px;
+    font-size:20px;
+    letter-spacing:0;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: white;
+    transition: background-color .2s, color .2s;
 }
 #mpGuidesButton {
     border:2px solid #f4914d8c;
