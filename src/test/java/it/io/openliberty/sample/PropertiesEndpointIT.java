@@ -41,13 +41,13 @@ public class PropertiesEndpointIT {
       Response response = target.request().get();
 
       // response
-      //assertEquals(200, response.getStatus(), "Incorrect response code from " + url);
+      assertEquals(200, response.getStatus(), "Incorrect response code from " + url);
 
       JsonObject obj = response.readEntity(JsonObject.class);
 
-      //assertEquals(System.getProperty("os.name"),
-       //            obj.getString("os.name"),
-        //           "The system property for the local and remote JVM should match");
+      assertEquals(System.getProperty("os.name"),
+                  obj.getString("os.name"),
+                  "The system property for the local and remote JVM should match");
 
       response.close();
   }
