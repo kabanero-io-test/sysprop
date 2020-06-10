@@ -60,7 +60,7 @@ metadata:
     stack.appsody.dev/id: java-openliberty
     stack.appsody.dev/version: 0.2.3
   name: sysprop
-  namespace: sysprop
+  namespace: sysprop-serverless
 spec:
   applicationImage: dev.local/sysprop
   createKnativeService: false
