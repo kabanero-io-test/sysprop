@@ -63,7 +63,7 @@ metadata:
   namespace: sysprop-serverless
 spec:
   applicationImage: dev.local/sysprop
-  createKnativeService: false
+  createKnativeService: true
   expose: true
   livenessProbe:
     failureThreshold: 12
